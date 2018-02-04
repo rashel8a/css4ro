@@ -13,7 +13,6 @@ body {
 }
 
 .preview {
-  display: block;
   position: relative;
   margin: 5px auto;
   width: 100%;
@@ -22,13 +21,18 @@ body {
 h2.baku, h2.london, h2.rome, h2.madrid {
   position: absolute;
   top: 35px;
-  float: left;
   left: 25px;
   width: auto;
 }
 
+h2.preview {
+  display: block;
+  margin: 8px;
+  float: left;
+}
+
 @media screen and (min-width: 575px) {
-  .preview {
+  div {
     margin: 1%;
     width: 30%;
   }
