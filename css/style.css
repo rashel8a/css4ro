@@ -22,19 +22,18 @@ h2.baku, h2.london, h2.rome, h2.madrid {
   position: absolute;
   top: 35px;
   left: 25px;
-  width: auto;
 }
 
 h2.preview {
   display: block;
-  margin: 8px;
+  margin: 1% 0;
   float: left;
 }
 
 @media screen and (min-width: 575px) {
   div {
     margin: 1%;
-    width: 30%;
+    width: 48%;
   }
 }
 
