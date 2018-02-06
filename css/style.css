@@ -25,10 +25,7 @@ body {
 }
 
 .preview, h2 {
-  padding-top: 3%;
-  padding-bottom: 25%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding: 3% 3% 25% 3%;
 }
 
 .baku {
